@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lean ChatGPT Bridge</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <h1>Lean ChatGPT Bridge</h1>
+    <p id="status" role="status">Checking local bridge…</p>
+    <p class="hint">Keep a ChatGPT tab open. The extension checks the local Python queue and handles one prompt at a time.</p>
+    <button id="refresh" type="button">Check connection</button>
+    <p class="small" id="version"></p>
+    <p class="small">Local endpoint: <code>127.0.0.1:8765</code></p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
